@@ -1,0 +1,143 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header nav > *{
+  float: left;
+  margin: 0 3%;
+}
+
+
+main > section{
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+
+img{
+  width: 80%;
+}
+
+main > section h1, main > section img{
+  margin-top: 120px;
+} 
+
+section img {
+  float: left;
+  margin-left: 25%;
+}
+
+section h1 {
+  font-size: 53px;
+  font-weight: 500;
+  font-family: "Source Serif Pro", "Noto Serif", serif;
+}
+
+section p {
+  font-size: 18px;
+  font-family: Lato, "Noto Sans", sans-serif;
+  line-height: 30px;
+  letter-spacing: -0.1000000000px;
+}
+
+.main-text {
+  margin-top: 80px;
+  margin-left: 50px;
+  width: 30%;
+  height: 703px;
+  justify-content: center;
+}
+
+a.button { 
+  float: left;
+  text-decoration: none;
+  align-items: center;
+  width: 93px;
+  background-color: rgb(24, 101, 242);
+  border:1px solid  rgb(24, 101, 242);
+  border-radius:5px;
+  color:#fff;
+  margin-right:5px;
+  padding: 8px 8px 8px 12px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: white;
+  text-decoration: none;
+}
+
+.nav-image {
+  width: 20%;
+  margin-left: 12%;
+}
+
+.courses-button {
+  margin-top: 15px;
+}
+
+.search {
+  margin-top: 15px;
+  float: left;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif;
+  font-size: 16px;
+  color: rgb(24, 101, 242);
+  font-weight: bold;
+  height: 60px;
+  line-height: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+
+li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.listHorizontal {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

@@ -1,3 +1,6 @@
 # Class08---3-Layouts
 
-BBC.com clone for 100Devs
+
+Layout1 - TechCrunch Clone
+Layou2 - Khan Academy Clone
+Layout3 - BBC.com clone

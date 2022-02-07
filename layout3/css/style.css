@@ -30,44 +30,346 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-  height: 55px;
+  height: 50px;
   background: black;
   color: white;
 }
 
+
 nav * {
   float: left;
-  width: 10%;
+  width: 8.5%;
+  height: 30px;
   color: white;
   display: block;
+  text-decoration: none;
+}
+
+nav li {
+  border-left: 1px solid #ccc;
+  padding-left: 25px;
+  margin-right: 20px;
 }
 
 nav ul {
-  width: 50%;
+  width: 68%;
+  border-radius: 1px solid #ccc;
+}
+
+nav img {
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 nav form input {
-  width: 100%;
+  width: 160px;
+  margin-top: 14px;
 }
+
+.work {
+  margin-left: -12px;
+  padding-left: 18px;
+}
+
+.culture {
+  padding-left: 2.5%;
+}
+
+.more {
+  padding-left: 2%;
+  border-right: 1px solid #ccc;
+}
+
+
+h2 {
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-left: 28px;
+  margin-top: 30px
+}
+
 
 main + section > section {
   width: 33.3333%;
   float: left;
 }
 
+main {
+  margin-left: -10px;
+}
+
 main > section {
-  width: 50%;
-  height: 500px;
+  width: 48%;
+  height: 400px;
   float: left;
 }
 
 main section + section section {
-  width: 50%;
-  height: 250px;
+  width: 48%;
+  height: 190px;
   float: left;
-  border: 1px solid black;
 }
 
+.sign-in {
+  padding-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.main-card {
+  margin-left: 30px;
+  position: relative;
+  width: 47.5%;
+  height: 370px;
+  max-width: 100%; 
+  max-height: 100%;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/layout3/css/IsraelUAEDeal.jpeg);
+  background-size: cover;
+}
+
+.main-card h1{
+  z-index: 2;
+  width: 600px;
+  list-style-position: outside;
+  height: 90px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  top: 60%;
+  left: 12px;
+  font-weight: normal;
+  
+}
+
+.main-card p {
+  z-index: 1;
+  width: 550px;
+  list-style-position: outside;
+  height: 76px;
+  position: relative;
+  color: rgba(234, 240, 246, 0.8);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  top: 43%;
+  left: 13px;
+  font-weight: normal;
+}
+
+.main-card span {
+  z-index: 2;
+  width: 584px;
+  list-style-position: outside;
+  height: 76px;
+  position: relative;
+  color: rgba(234, 240, 246, 0.8);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  top: 120px;
+  left: 12px;
+  font-weight: normal;
+}
+
+.container section {
+  width: 48.18%;
+  margin-left: 10px
+}
+
+
+.americans {
+  height: 180px;
+  margin-top: 3px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/layout3/css/AmericansGoHome.jpeg);
+  background-size: cover;
+}
+
+.americans h3 {
+  z-index: 2;
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: normal;
+  left: 12px;
+  top: 95px;
+  line-height: 16px;
+}
+
+.americans p {
+  z-index: 2;
+  position: relative;
+  top: 95px;
+  left: 14px;
+  color: rgba(234, 240, 246, 0.99);
+  font-size: 14px;
+}
+
+.vaccinate { 
+  height: 180px;
+  margin: 3px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/layout3/css/Vaccinate.jpeg);
+  background-size: cover;
+}
+
+.vaccinate h3 {
+  z-index: 2;
+  position: relative;
+  top: 95px;
+  color: white;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: normal;
+  left: 12px;
+  line-height: 16px;
+}
+
+.vaccinate p {
+  z-index: 2;
+  position: relative;
+  top: 95px;
+  left: 14px;
+  color: rgba(234, 240, 246, 0.8);
+  font-size: 14px;
+}
+
+.gyms {
+  height: 180px;
+  margin-top: 4px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/layout3/css/Productivity.jpeg);
+  background-size: cover;
+}
+
+.gyms h3 {
+  z-index: 2;
+  position: relative;
+  top: 110px;
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: normal;
+  left: 10px;
+  line-height: 20px;
+}
+
+.gyms p {
+  z-index: 2;
+  position: relative;
+  top: 105px;
+  left: 14px;
+  color: rgba(234, 240, 246, 0.8);
+  font-size: 14px;
+}
+
+.folk {
+  height: 180px;
+  margin-top: 4px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/layout3/css/FolkSinger.jpeg);
+  background-size: cover;
+}
+
+.folk h3 {
+  z-index: 2;
+  position: relative;
+  top: 90px;
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-weight: normal;
+  right: -15px;
+  line-height: 20px;
+}
+
+.folk p {
+  z-index: 2;
+  position: relative;
+  top: 85px;
+  left: 15px;
+  color: rgba(234, 240, 246, 0.8);
+  font-size: 14px;
+}
+
+.News { 
+  margin-left: 20px;
+  margin-top: 14px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  padding: 0
+}
+
+.list {
+  list-style: none;
+}
+
+.Biden {
+  float: left;
+  width: 33%;
+  padding-right: 5px;
+  margin-left: -20px;
+}
+
+.Biden img {
+  width: 100%;
+}
+
+.Women {
+  float: left;
+  width: 33.4%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.Women img {
+  width: 100%;
+}
+
+.Trump {
+  float: left;
+  width: 33%;
+  padding-left: 5px;
+}
+
+.Trump img {
+  width: 100%;
+}
+
+span {
+  color: #ccc;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

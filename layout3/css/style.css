@@ -126,8 +126,8 @@ main section + section section {
   max-height: 100%;
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
     ),
     url(/layout3/css/IsraelUAEDeal.jpeg);
   background-size: cover;
@@ -190,8 +190,8 @@ main section + section section {
   margin-top: 3px;
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
     ),
     url(/layout3/css/AmericansGoHome.jpeg);
   background-size: cover;
@@ -224,8 +224,8 @@ main section + section section {
   margin: 3px;
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
     ),
     url(/layout3/css/Vaccinate.jpeg);
   background-size: cover;
@@ -258,8 +258,8 @@ main section + section section {
   margin-top: 4px;
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
     ),
     url(/layout3/css/Productivity.jpeg);
   background-size: cover;
@@ -292,8 +292,8 @@ main section + section section {
   margin-top: 4px;
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
     ),
     url(/layout3/css/FolkSinger.jpeg);
   background-size: cover;

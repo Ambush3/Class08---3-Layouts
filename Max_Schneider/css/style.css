@@ -1,0 +1,225 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: rgb(245, 249, 252);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  width: 100%;
+  background: white;
+
+}
+
+/******************************************
+/* NAVBAR
+/*******************************************/
+
+.navBar {
+  width: 100%;
+}
+
+.navBar ul li{
+  float: left;
+  list-style: none;
+  color: rgb(136, 151, 163);
+}
+
+.navBar ul {
+  padding-left: 10px;
+}
+
+.navBar ul li:not(:last-child) {
+  margin-left: 30px;
+}
+
+.navBar ul li:nth-child(2){
+  padding-left: 27%;
+}
+
+.navBar ul li:nth-child(6){
+  margin-left: 420px;
+}
+
+.navBar button {
+  padding: 5px;
+  width: 80px;
+  color: white;
+  background:rgb(48, 70, 89)
+}
+
+.navBar ul li:nth-child(1) {
+  font-size: 22px;
+  font-weight: bold;
+  color:rgb(48, 70, 89)
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+main {
+  width: 100%;
+}
+
+.main {
+  width: 40%;
+  height: 500px;
+  padding-top: 100px;
+  padding-left: 100px;
+  float: left;
+}
+
+h1 {
+  font-size: 44px;
+  margin-top: 15px;
+  color:rgb(48, 70, 89);
+}
+
+.submit {
+  width: 90px;
+  padding: 5px;
+  background: rgb(48, 70, 89);
+  color: White;
+}
+
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: rgb(225, 233, 240);
+}
+
+.first-p {
+  width: 70%;
+}
+
+.main span {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: grey;
+}
+
+main img {
+  float: left;
+  width: 60%;
+  height: 600px;
+  padding-left: 80px;
+  padding-top: 40px
+}
+
+/******************************************
+/* SECTIONS
+/*******************************************/
+
+.features {
+  width: 100%;
+  padding-left: 7%;
+}
+
+.feature-one {
+  width: 20%;
+  height: 50%;
+  float: left;
+  margin-top: 50px;
+  background: 
+}
+
+.feature-two {
+  width: 20%;
+  float:left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.feature-three {
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.feature-four {
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+
+.bottom {
+  width: 100%;
+  height: 500px;
+  float: left;
+  padding-left: 7%; 
+  margin-top: 50px;
+  background: white;
+}
+
+h2 {
+  font-size: 45px;
+  padding-top: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(48, 70, 89)
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (min-width: 300px) and (max-width: 575px) { 
+  .navBar {
+    width: 40px;
+    height: 40px;
+    background: red;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav:hover ul {
+    display: flex;
+  }
+
+  .main {
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  .features { 
+    width: 100%;
+    float: left;
+  }
+
+
+}

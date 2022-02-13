@@ -197,29 +197,13 @@ a {
 /*******************************************/
 
 @media screen and (min-width: 300px) and (max-width: 575px) { 
-  .navBar {
-    width: 40px;
-    height: 40px;
-    background: red;
+  @media all and (max-width: 420px) {
+  header, main {
+    float: none;
+    width: auto;
   }
+}
 
-  nav ul {
-    display: none;
-  }
-
-  nav:hover ul {
-    display: flex;
-  }
-
-  .main {
-    width: 95%;
-    margin-left: 10px;
-  }
-
-  .features { 
-    width: 100%;
-    float: left;
-  }
 
 
 }

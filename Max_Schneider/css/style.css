@@ -29,10 +29,10 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+
 header {
   width: 100%;
   background: white;
-
 }
 
 /******************************************
@@ -127,8 +127,9 @@ form.example input[type=text] {
 }
 
 main img {
-  float: left;
+  object-fit: cover;
   width: 60%;
+  max-width: 100%;
   height: 600px;
   padding-left: 80px;
   padding-top: 40px
@@ -192,18 +193,106 @@ a {
   color: rgb(48, 70, 89)
 }
 
+
+@media screen and (max-width: 480px) {
+  .nav-item {
+    display: none;
+  }
+
+  .nav-source {
+    position: relative;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    height: 4px;
+  }
+
+  .features {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  main {
+    width: 90%;
+    text-align: left;
+  }
+
+  main h1 {
+    font-size: 31px;
+    padding: 0;
+  }
+
+  .main {
+    padding: 0;
+    padding-top: 20%;
+    padding-left: 30px;
+    width: 100%;
+  }
+
+  main img{
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 50%;
+  }
+  
+  .main button {
+    width: 100%;
+  }
+
+  .main .example {
+    flex: auto;
+  }
+
+  .main p {
+    width: 100%;
+  }
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  left: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+  .nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    width: 100%;
+    float: none;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-@media screen and (min-width: 300px) and (max-width: 575px) { 
-  @media all and (max-width: 420px) {
-  header, main {
-    float: none;
-    width: auto;
-  }
-}
 
-
-
-}
